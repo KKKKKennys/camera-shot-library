@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kenny Camera Shot Library"
+  short_description: "50 张面向三维资产与环境展示的镜头卡，包含 Blender 与 Remotion 适配"
+  default_prompt: "使用 $camera-shot-library 为我的三维作品选择镜头，并按指定软件生成可编辑的运镜方案。"

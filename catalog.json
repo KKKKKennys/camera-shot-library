@@ -1,0 +1,452 @@
+[
+  {
+    "id": "silhouette-establish",
+    "title": "全貌建立",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "先让观众读清资产轮廓、支撑关系和比例。",
+    "duration": "2–4 秒",
+    "path": "cards/foundation/silhouette-establish.md"
+  },
+  {
+    "id": "measured-push",
+    "title": "缓推观察",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "从已明确的全貌缓慢靠近一个值得看的细节。",
+    "duration": "3–6 秒",
+    "path": "cards/foundation/measured-push.md"
+  },
+  {
+    "id": "context-pullback",
+    "title": "后撤交代环境",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "将局部构件放回它所属的整体空间。",
+    "duration": "3–6 秒",
+    "path": "cards/foundation/context-pullback.md"
+  },
+  {
+    "id": "lateral-track",
+    "title": "横向滑轨",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "比较相邻结构，或让侧向视差呈现空间深度。",
+    "duration": "3–5 秒",
+    "path": "cards/foundation/lateral-track.md"
+  },
+  {
+    "id": "vertical-track",
+    "title": "垂直升降",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "由低处到高处读出建筑或道具的层次。",
+    "duration": "3–5 秒",
+    "path": "cards/foundation/vertical-track.md"
+  },
+  {
+    "id": "pan-survey",
+    "title": "水平扫视",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "站在同一个观察位置，从一区域转向另一区域。",
+    "duration": "2–5 秒",
+    "path": "cards/foundation/pan-survey.md"
+  },
+  {
+    "id": "tilt-survey",
+    "title": "俯仰扫视",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "沿垂直方向揭示悬挂物、建筑高度或地面关系。",
+    "duration": "2–5 秒",
+    "path": "cards/foundation/tilt-survey.md"
+  },
+  {
+    "id": "diagonal-dolly",
+    "title": "斜向接近",
+    "category": "foundation",
+    "category_name": "建立与基础",
+    "goal": "同时呈现主体的正面与侧面，让结构有体积感。",
+    "duration": "3–5 秒",
+    "path": "cards/foundation/diagonal-dolly.md"
+  },
+  {
+    "id": "quarter-orbit",
+    "title": "四分之一环绕",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "用一次克制的绕行介绍主角的相邻两面。",
+    "duration": "4–7 秒",
+    "path": "cards/space/quarter-orbit.md"
+  },
+  {
+    "id": "half-orbit",
+    "title": "半环绕检视",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "展示体量与背面关系，适合结构较清楚的单体。",
+    "duration": "5–8 秒",
+    "path": "cards/space/half-orbit.md"
+  },
+  {
+    "id": "surface-tour",
+    "title": "贴面巡游",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "沿表面观察接缝、开孔和材质尺度。",
+    "duration": "3–6 秒",
+    "path": "cards/space/surface-tour.md"
+  },
+  {
+    "id": "foreground-parallax",
+    "title": "前景视差",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "借一个近处遮挡物强化纵深，而不抢走主体。",
+    "duration": "3–5 秒",
+    "path": "cards/space/foreground-parallax.md"
+  },
+  {
+    "id": "corridor-travel",
+    "title": "通道穿行",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "让观众理解空间的连续连接关系。",
+    "duration": "4–8 秒",
+    "path": "cards/space/corridor-travel.md"
+  },
+  {
+    "id": "threshold-crossing",
+    "title": "越过门槛",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "通过门、舱口或洞口建立内外空间转换。",
+    "duration": "3–6 秒",
+    "path": "cards/space/threshold-crossing.md"
+  },
+  {
+    "id": "dive-settle",
+    "title": "俯冲落定",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "从较高全景进入一个明确观察点。",
+    "duration": "3–6 秒",
+    "path": "cards/space/dive-settle.md"
+  },
+  {
+    "id": "crane-reveal",
+    "title": "抬升揭示",
+    "category": "space",
+    "category_name": "空间探索",
+    "goal": "从局部视角逐渐看到完整场景。",
+    "duration": "4–7 秒",
+    "path": "cards/space/crane-reveal.md"
+  },
+  {
+    "id": "explode-return",
+    "title": "拆开再归位",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "展示组件之间的装配关系，并以完整资产收束。",
+    "duration": "5–9 秒",
+    "path": "cards/structure/explode-return.md"
+  },
+  {
+    "id": "axis-disassembly",
+    "title": "沿装配轴分解",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "解释螺纹、滑轨或插接件如何拆卸。",
+    "duration": "4–8 秒",
+    "path": "cards/structure/axis-disassembly.md"
+  },
+  {
+    "id": "layer-inspection",
+    "title": "层间观察",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "让观众看见叠层构件之间的接口与间距。",
+    "duration": "4–7 秒",
+    "path": "cards/structure/layer-inspection.md"
+  },
+  {
+    "id": "assembly-sequence",
+    "title": "分步装配",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "按因果顺序解释零件如何组成整体。",
+    "duration": "5–10 秒",
+    "path": "cards/structure/assembly-sequence.md"
+  },
+  {
+    "id": "frozen-inspection",
+    "title": "冻结绕看",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "在结构最有信息量的一刻暂停动作，改由镜头观察。",
+    "duration": "3–6 秒",
+    "path": "cards/structure/frozen-inspection.md"
+  },
+  {
+    "id": "overhead-layout",
+    "title": "顶视结构",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "清楚展示零件排列、平面关系和对称性。",
+    "duration": "3–5 秒",
+    "path": "cards/structure/overhead-layout.md"
+  },
+  {
+    "id": "profile-read",
+    "title": "侧面轮廓",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "突出长轴比例、转折和功能分区。",
+    "duration": "3–5 秒",
+    "path": "cards/structure/profile-read.md"
+  },
+  {
+    "id": "detail-chain",
+    "title": "细节链路",
+    "category": "structure",
+    "category_name": "资产与结构",
+    "goal": "按功能关系连续看几个细节，最后回到整体。",
+    "duration": "6–10 秒",
+    "path": "cards/structure/detail-chain.md"
+  },
+  {
+    "id": "spotlight-lock",
+    "title": "聚光锁定",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "通过光线把一个主角从环境中明确选出来。",
+    "duration": "3–6 秒",
+    "path": "cards/light-focus/spotlight-lock.md"
+  },
+  {
+    "id": "highlight-trace",
+    "title": "高光掠面",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "展示金属、涂层或倒角表面的反射变化。",
+    "duration": "3–5 秒",
+    "path": "cards/light-focus/highlight-trace.md"
+  },
+  {
+    "id": "rim-to-body",
+    "title": "轮廓到实体",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "先交代剪影，再揭示主体表面。",
+    "duration": "3–6 秒",
+    "path": "cards/light-focus/rim-to-body.md"
+  },
+  {
+    "id": "focus-handoff",
+    "title": "焦点交接",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "在同一画面内把注意力从前景交给后景。",
+    "duration": "2–4 秒",
+    "path": "cards/light-focus/focus-handoff.md"
+  },
+  {
+    "id": "zone-light-reveal",
+    "title": "分区点亮",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "按区域顺序解释室内的功能分布。",
+    "duration": "4–7 秒",
+    "path": "cards/light-focus/zone-light-reveal.md"
+  },
+  {
+    "id": "depth-focus-reveal",
+    "title": "景深揭示",
+    "category": "light-focus",
+    "category_name": "光影与焦点",
+    "goal": "用逐渐清晰的背景补充空间或对象关系。",
+    "duration": "3–5 秒",
+    "path": "cards/light-focus/depth-focus-reveal.md"
+  },
+  {
+    "id": "occlusion-cut",
+    "title": "遮挡藏切",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "把剪辑点藏在一次自然的前景遮挡中。",
+    "duration": "0.4–1.2 秒接缝",
+    "path": "cards/transition/occlusion-cut.md"
+  },
+  {
+    "id": "direction-match",
+    "title": "同向接镜",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "让前后两个不同空间保持相同的观看动势。",
+    "duration": "0.2–0.8 秒接缝",
+    "path": "cards/transition/direction-match.md"
+  },
+  {
+    "id": "whip-bridge",
+    "title": "甩镜衔接",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "用短促的横向运动完成一次高能换景。",
+    "duration": "0.4–1 秒接缝",
+    "path": "cards/transition/whip-bridge.md"
+  },
+  {
+    "id": "shape-match",
+    "title": "形状匹配",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "用相似轮廓把两个不同对象关联起来。",
+    "duration": "0.2–0.6 秒接缝",
+    "path": "cards/transition/shape-match.md"
+  },
+  {
+    "id": "window-travel",
+    "title": "穿窗入景",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "让一个画面内的窗口成为进入下一空间的入口。",
+    "duration": "1–3 秒接缝",
+    "path": "cards/transition/window-travel.md"
+  },
+  {
+    "id": "center-material-reveal",
+    "title": "中心显色",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "由白模或前态从画面中心逐步揭示成品。",
+    "duration": "0.4–1 秒变化",
+    "path": "cards/transition/center-material-reveal.md"
+  },
+  {
+    "id": "geometric-wipe",
+    "title": "几何擦除",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "以清楚的边界交接前后两个稳定画面。",
+    "duration": "0.5–1.5 秒变化",
+    "path": "cards/transition/geometric-wipe.md"
+  },
+  {
+    "id": "defocus-cut",
+    "title": "焦外接镜",
+    "category": "transition",
+    "category_name": "转场与衔接",
+    "goal": "在有意的失焦区间完成柔和换景。",
+    "duration": "0.6–1.5 秒接缝",
+    "path": "cards/transition/defocus-cut.md"
+  },
+  {
+    "id": "stepped-detail",
+    "title": "分级细节跳切",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "通过几个明确台阶逐次强调同一细节。",
+    "duration": "2–4 秒",
+    "path": "cards/rhythm/stepped-detail.md"
+  },
+  {
+    "id": "opening-teaser",
+    "title": "短预告开场",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "用少量有差异的画面先建立作品看点。",
+    "duration": "1–3 秒序段",
+    "path": "cards/rhythm/opening-teaser.md"
+  },
+  {
+    "id": "hold-and-explain",
+    "title": "停留说明",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "在最关键的画面给观众足够理解时间。",
+    "duration": "1–3 秒停留",
+    "path": "cards/rhythm/hold-and-explain.md"
+  },
+  {
+    "id": "accelerate-settle",
+    "title": "加速后缓停",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "用速度反差集中注意力，而不让终点显得生硬。",
+    "duration": "3–5 秒",
+    "path": "cards/rhythm/accelerate-settle.md"
+  },
+  {
+    "id": "paired-view",
+    "title": "双视角对照",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "同时比较整体与细节，或前后状态。",
+    "duration": "3–6 秒",
+    "path": "cards/rhythm/paired-view.md"
+  },
+  {
+    "id": "quiet-reset",
+    "title": "短静止重启",
+    "category": "rhythm",
+    "category_name": "节奏组织",
+    "goal": "在连续动态之后给观看节奏留一个清楚的段落边界。",
+    "duration": "0.4–1.2 秒间隔",
+    "path": "cards/rhythm/quiet-reset.md"
+  },
+  {
+    "id": "clay-to-final",
+    "title": "白模到成品",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "展示材质与灯光为同一模型带来的变化。",
+    "duration": "3–6 秒",
+    "path": "cards/presentation/clay-to-final.md"
+  },
+  {
+    "id": "wire-to-surface",
+    "title": "线框到表面",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "把拓扑与最终外观放在同一观察位置理解。",
+    "duration": "3–5 秒",
+    "path": "cards/presentation/wire-to-surface.md"
+  },
+  {
+    "id": "lighting-comparison",
+    "title": "灯光前后对照",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "说明布光选择怎样影响可读性与氛围。",
+    "duration": "3–6 秒",
+    "path": "cards/presentation/lighting-comparison.md"
+  },
+  {
+    "id": "detail-to-hero",
+    "title": "细节汇入全貌",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "把前面看过的细节重新组织成完整资产。",
+    "duration": "4–7 秒",
+    "path": "cards/presentation/detail-to-hero.md"
+  },
+  {
+    "id": "three-stop-space",
+    "title": "三站空间叙事",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "用少量观察位置交代空间的功能与连接。",
+    "duration": "6–12 秒",
+    "path": "cards/presentation/three-stop-space.md"
+  },
+  {
+    "id": "closing-withdrawal",
+    "title": "后撤收束",
+    "category": "presentation",
+    "category_name": "制作过程与收尾",
+    "goal": "在作品完成感最强的状态平稳结束。",
+    "duration": "3–5 秒",
+    "path": "cards/presentation/closing-withdrawal.md"
+  }
+]
