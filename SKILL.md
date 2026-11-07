@@ -1,6 +1,8 @@
 ---
 name: camera-shot-library
 description: Plan and adapt 50 camera, staging, transition and presentation recipes for 3D assets and environments. Use for Blender-native camera motion or Remotion shot organization, preserving the user's chosen software, existing work and requested scope.
+metadata:
+  version: "2.0.0"
 ---
 
 # Camera Shot Library
@@ -26,6 +28,12 @@ description: Plan and adapt 50 camera, staging, transition and presentation reci
 4. 转场和节奏：先让前后镜头本身成立，再决定接缝；并非所有接缝都需要特效。
 
 选中后读取对应卡全文。卡里的时长是规划建议，不是通用合格标准或实测结果。记录 [镜头简报](references/shot-brief.md) 中真正影响当前任务的内容。
+
+## V2 选卡与时间线工具
+
+需要检索时运行 `python scripts/find_shots.py "目的关键词" --limit 3 --json`，或直接读取 catalog.json；没有结果就如实返回，按类别继续查找。组合多个效果时读 [选卡与制作层分工](references/selection-v2.md)。
+
+有多个剪辑段、已有音轨或白模/成品对照时，读 [帧与素材约定](references/timing-v2.md)。形成适用的剪辑轨计划后，运行 `python scripts/check_sequence.py <计划.json>` 检查内部一致性；单独文字建议无需强制生成JSON。源素材、成片与真实画面的验证另外完成。
 
 ## 软件适配
 

@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "example_kind": "synthetic_not_a_render_record",
+  "fps": 30,
+  "total_frames": 240,
+  "segments": [
+    {
+      "id": "establish",
+      "start": 0,
+      "end_exclusive": 90,
+      "cards": [
+        "silhouette-establish"
+      ],
+      "fit": "contain",
+      "source": {
+        "start": 0,
+        "frames": 102,
+        "fps": 30
+      }
+    },
+    {
+      "id": "reveal",
+      "start": 90,
+      "end_exclusive": 150,
+      "cards": [
+        "center-material-reveal"
+      ],
+      "fit": "contain",
+      "paired_layers": [
+        {
+          "camera_id": "Camera_A",
+          "source_start": 0,
+          "fps": 30,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "camera_id": "Camera_A",
+          "source_start": 0,
+          "fps": 30,
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "start": 150,
+      "end_exclusive": 240,
+      "cards": [
+        "closing-withdrawal"
+      ],
+      "fit": "contain"
+    }
+  ]
+}
