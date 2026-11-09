@@ -9,6 +9,15 @@ ROOT = Path(__file__).resolve().parents[1]
 def integer(v):
     return isinstance(v, int) and not isinstance(v, bool)
 
+def positive_fps(v):
+    if isinstance(v, bool) or not isinstance(v, (int, float)):
+        return False
+    try:
+        return math.isfinite(v) and v > 0
+    except OverflowError:
+        # Very large JSON integers cannot be represented by the finite-float check.
+        return False
+
 def validate(plan, catalog_ids):
     if not isinstance(plan, dict):
         return ['sequence must be an object']
@@ -16,8 +25,8 @@ def validate(plan, catalog_ids):
     if plan.get('schema_version') != '2.0':
         errors.append('schema_version must be 2.0')
     fps, total = plan.get('fps'), plan.get('total_frames')
-    if isinstance(fps, bool) or not isinstance(fps, (int, float)) or not math.isfinite(fps) or fps <= 0:
-        errors.append('fps must be positive')
+    if not positive_fps(fps):
+        errors.append('fps must be a finite positive number')
     if not integer(total) or total <= 0:
         return errors + ['total_frames must be a positive integer']
     segments = plan.get('segments')
@@ -45,7 +54,7 @@ def validate(plan, catalog_ids):
         if source is not None:
             if not isinstance(source, dict):
                 errors.append('source must be an object: %s' % ident)
-            elif source.get('fps') != fps:
+            elif not positive_fps(source.get('fps')) or source.get('fps') != fps:
                 errors.append('source fps differs; resolve timing explicitly: %s' % ident)
             elif not integer(source.get('start')) or not integer(source.get('frames')) or source['start'] < 0 or source['frames'] < source['start'] + end - start:
                 errors.append('source frames insufficient: %s' % ident)
@@ -58,13 +67,16 @@ def validate(plan, catalog_ids):
                 keys = ('camera_id', 'source_start', 'fps', 'width', 'height')
                 if any(k not in first for k in keys) or any(any(layer.get(k) != first.get(k) for k in keys) for layer in pair[1:]):
                     errors.append('paired layers are not aligned: %s' % ident)
-                if (not isinstance(first.get('camera_id'), str) or not first.get('camera_id')
-                    or first.get('fps') != fps
-                    or not integer(first.get('source_start')) or first['source_start'] < 0
-                    or any(not integer(first.get(k)) or first[k] <= 0 for k in ('width', 'height'))):
+                if any(
+                    not isinstance(layer.get('camera_id'), str) or not layer.get('camera_id')
+                    or not positive_fps(layer.get('fps')) or layer.get('fps') != fps
+                    or not integer(layer.get('source_start')) or layer['source_start'] < 0
+                    or any(not integer(layer.get(k)) or layer[k] <= 0 for k in ('width', 'height'))
+                    for layer in pair
+                ):
                     errors.append('invalid paired-layer metadata: %s' % ident)
     cursor = 0
-    for start, end, ident in sorted(valid_ranges):
+    for start, end, ident in sorted(valid_ranges, key=lambda interval: interval[:2]):
         if start < cursor:
             errors.append('overlapping cut intervals: %s' % ident)
         elif start > cursor:
